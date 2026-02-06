@@ -1,0 +1,190 @@
+/* 自定义样式可以在这里添加 */
+
+.card {
+  @apply bg-white rounded-lg shadow-md p-6 transition-all duration-300 hover:shadow-lg;
+}
+
+.btn {
+  @apply px-4 py-2 rounded-md font-medium transition-all duration-300;
+}
+
+.btn-primary {
+  @apply bg-primary text-white hover:bg-primary/90;
+}
+
+.btn-outline {
+  @apply border border-primary text-primary hover:bg-primary/10;
+}
+
+.section-title {
+  @apply text-3xl md:text-4xl font-bold mb-6 text-center;
+}
+
+.section-subtitle {
+  @apply text-xl text-secondary mb-12 text-center max-w-3xl mx-auto;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 导航栏样式 */
+.navbar {
+  @apply bg-white shadow-md fixed top-0 left-0 right-0 z-50;
+}
+
+.navbar-container {
+  @apply container mx-auto px-4 py-3 flex justify-between items-center;
+}
+
+.navbar-logo {
+  @apply text-2xl font-bold text-primary;
+}
+
+.navbar-links {
+  @apply flex space-x-6;
+}
+
+.navbar-link {
+  @apply text-secondary hover:text-primary transition-colors duration-300 font-medium;
+}
+
+/* Hero区域样式 */
+.hero {
+  @apply bg-gradient-to-br from-primary/10 to-accent/10 pt-24 pb-16 md:pt-32 md:pb-24;
+}
+
+.hero-container {
+  @apply container mx-auto px-4 text-center;
+}
+
+.hero-title {
+  @apply text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-dark;
+}
+
+.hero-subtitle {
+  @apply text-xl md:text-2xl text-secondary mb-8 max-w-3xl mx-auto;
+}
+
+/* 痛点场景分析样式 */
+.pain-points {
+  @apply bg-white;
+}
+
+.pain-points-grid {
+  @apply grid grid-cols-1 md:grid-cols-3 gap-8;
+}
+
+.pain-point-card {
+  @apply card;
+}
+
+.pain-point-icon {
+  @apply w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4;
+}
+
+.pain-point-title {
+  @apply text-xl font-bold mb-3 text-dark;
+}
+
+.pain-point-description {
+  @apply text-secondary;
+}
+
+/* MVP产品介绍样式 */
+.mvp-products {
+  @apply bg-gray-50;
+}
+
+.products-grid {
+  @apply grid grid-cols-1 md:grid-cols-3 gap-8;
+}
+
+.product-card {
+  @apply card;
+}
+
+.product-title {
+  @apply text-xl font-bold mb-3 text-dark;
+}
+
+.product-features {
+  @apply list-disc pl-5 mb-4 text-secondary;
+}
+
+.product-link {
+  @apply text-primary hover:underline font-medium;
+}
+
+/* 从点子到产品的挖掘思路样式 */
+.idea-to-product {
+  @apply bg-white;
+}
+
+.idea-process {
+  @apply max-w-4xl mx-auto;
+}
+
+.idea-step {
+  @apply mb-8;
+}
+
+.idea-step-number {
+  @apply w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center font-bold mb-3;
+}
+
+.idea-step-title {
+  @apply text-xl font-bold mb-2 text-dark;
+}
+
+.idea-step-description {
+  @apply text-secondary;
+}
+
+/* 项目展示样式 */
+.projects-showcase {
+  @apply bg-gray-50;
+}
+
+.showcase-grid {
+  @apply grid grid-cols-1 md:grid-cols-3 gap-8;
+}
+
+.showcase-card {
+  @apply card flex flex-col h-full;
+}
+
+.showcase-card-content {
+  @apply flex-grow;
+}
+
+.showcase-card-footer {
+  @apply mt-auto pt-4;
+}
+
+/* 页脚样式 */
+.footer {
+  @apply bg-dark text-white py-8;
+}
+
+.footer-container {
+  @apply container mx-auto px-4 text-center;
+}
+
+.footer-content {
+  @apply mb-4;
+}
+
+.footer-links {
+  @apply flex justify-center space-x-6 mb-6;
+}
+
+.footer-link {
+  @apply text-gray-300 hover:text-white transition-colors duration-300;
+}
+
+.footer-copyright {
+  @apply text-gray-400 text-sm;
+}
